@@ -1,6 +1,4 @@
 #!/bin/bash
-cd /home/jenkins/test_code
-
 # Xóa các file đã biên dịch trước đó (nếu có)
 rm -rf build
 
@@ -28,3 +26,6 @@ fi
 
 # Chạy chương trình
 ./hello
+
+#!/bin/bash
+rm -r $PWD
