@@ -25,7 +25,7 @@ if ! make; then
 fi
 
 # Chạy chương trình
-./hello
+#./hello
 
 #!/bin/bash
-rm -r $PWD
+#rm -r $PWD
